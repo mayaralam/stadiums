@@ -201,7 +201,7 @@ export default function stadium() {
                 {basket.rate}
               </p>
                 <button
-                  className="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition mt-20"
+                  className="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition mt-18"
                   onClick={() => window.open(basket.mapLink, "_blank")}
                 >
                   Book it
@@ -304,7 +304,7 @@ export default function stadium() {
                 {hand.rate}
               </p>
               <button
-                className="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition mt-20"
+                className="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition mt-18"
                 onClick={() => window.open(hand.mapLink, "_blank")}
               >
                 Book it
