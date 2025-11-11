@@ -145,10 +145,10 @@ export default function stadium() {
                 <h2 className="text-2xl font-bold text-white dark:text-gray-800 mb-3 mt-10 ">
                   {basket.name}
                 </h2>
-                <p className="text-sm text-gray-300 dark:text-gray-600 mb-4">
+                <p className="text-md text-gray-300 dark:text-gray-600 mb-4">
                   {basket.details}
                 </p>
-                <p className="flex gap-1 text-sm text-gray-300 dark:text-gray-600 mb-4">
+                <p className="flex gap-1 text-md text-gray-300 dark:text-gray-600 mt-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="28"
@@ -200,12 +200,12 @@ export default function stadium() {
                 </svg>
                 {basket.rate}
               </p>
-                <button
+                {/* <button
                   className="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition mt-18"
                   onClick={() => window.open(basket.mapLink, "_blank")}
                 >
                   Book it
-                </button>
+                </button> */}
               </div>
             </div>
           ))}
@@ -248,10 +248,10 @@ export default function stadium() {
               <h2 className="text-2xl font-bold text-white dark:text-gray-800 mb-3 mt-10 ">
                 {hand.name}
               </h2>
-              <p className="text-sm text-gray-300 dark:text-gray-600 mb-4">
+              <p className="text-md text-gray-300 dark:text-gray-600 mb-4">
                 {hand.details}
               </p>
-              <p className="flex gap-1 text-sm text-gray-300 dark:text-gray-600 mb-4">
+              <p className="flex gap-1 text-md text-gray-300 dark:text-gray-600 mt-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="28"
@@ -303,12 +303,12 @@ export default function stadium() {
                 </svg>
                 {hand.rate}
               </p>
-              <button
+              {/* <button
                 className="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition mt-18"
                 onClick={() => window.open(hand.mapLink, "_blank")}
               >
                 Book it
-              </button>
+              </button> */}
             </div>
           </div>
         ))}

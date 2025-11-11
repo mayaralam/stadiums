@@ -33,7 +33,7 @@ export default function contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    toast.success('Sent Successfully!')
+    toast.success('Booking Confirmed!')
   };
   return (
     <>

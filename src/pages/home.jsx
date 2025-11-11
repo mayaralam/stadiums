@@ -6,10 +6,10 @@ import { FaSearch, FaCalendarAlt } from "react-icons/fa";
 import { DayPicker } from "react-day-picker";
 import 'react-day-picker/dist/style.css';
 import play1 from "../assets/play1.jpg";
-import play2 from "../assets/play2.jpg";
+import play2 from "../assets/play2.jpeg";
 import play3 from "../assets/play3.jpg";
-import play4 from "../assets/play4.jpg";
-import play5 from "../assets/play5.jpg";
+import play4 from "../assets/play4.jpeg";
+import play5 from "../assets/play5.jpeg";
 import play6 from "../assets/play6.jpg";
 export default function home() {
   const navigate = useNavigate();
@@ -200,10 +200,10 @@ export default function home() {
               <h2 className="text-2xl font-bold text-white dark:text-gray-800 mb-3 mt-10 ">
                 {stadiums.name}
               </h2>
-              <p className="text-sm text-gray-300 dark:text-gray-600 mb-2">
+              <p className="text-md text-gray-300 dark:text-gray-600 mb-2">
                 {stadiums.details}
               </p>
-              <p className="flex gap-1 text-sm text-gray-300 dark:text-gray-600 mb-4">
+              <p className="flex gap-1 text-md text-gray-300 dark:text-gray-600 mt-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="28"
@@ -255,12 +255,12 @@ export default function home() {
                 </svg>
                 {stadiums.rate}
               </p>
-              <button
+              {/* <button
                 className="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition mt-20"
                 onClick={() => window.open(stadiums.mapLink, "_blank")}
               >
                 Book it
-              </button>
+              </button> */}
             </div>
           </div>
         ))}
